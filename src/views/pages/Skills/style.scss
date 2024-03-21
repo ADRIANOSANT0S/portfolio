@@ -1,0 +1,54 @@
+@import '@/assets/SCSS/main.scss';
+
+.skills {
+    padding: 120px 0;
+    background-color: lighten($black, 2%);
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    // Control the size of the text tag p
+    .middle-text{
+        text-align: center;
+        max-width: 500px;
+    }
+    
+    .text-italic {
+        font-style: italic;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        border: 1px solid transparent;
+        
+        &__item {
+            width: 140px;
+            height: 200px;
+            text-align: center;
+            padding: 40px 15px 30px;
+            border-radius: 25px;
+            margin-top: 15px;
+            background-color: darken($blueII, 10%);
+
+            &__img {
+                margin-bottom: 16px;
+                height: 60px;
+                width: 60px;
+                border-radius: 10px;
+            }
+
+            .title {
+                margin: 0;
+                line-height: 24px;
+                text-transform: uppercase;
+
+                @include convertPxToEm;
+            }
+        }
+    }
+}

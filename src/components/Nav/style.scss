@@ -1,0 +1,49 @@
+@import '@/assets/SCSS/main.scss';
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__item {
+        padding: 2px 0;
+        border-bottom: 2px solid  transparent;
+        transition: .3s ease-out;
+        position: relative;
+        
+        &:hover {
+            border-bottom-color: $gold;
+
+            .dropdown {
+                display: block;
+                background-color: $black;
+            }
+        }
+
+        .arrow-down {
+            font-size: 12px;
+        }
+
+        .dropdown {
+            display: none;
+            padding: 20px 0  0;
+            position: absolute;
+            width: auto;
+            transition: .3s ease-in;
+            
+            &__item {
+                display: block;
+                margin: 8px 0;
+                padding: 8px 16px;
+                background-color: $mainColor;
+                border-bottom: 2px solid transparent;
+                border-radius: 2px;
+                
+
+                &:hover {
+                    border-bottom: 2px solid $gold;
+                }
+            }
+        }
+    }
+}

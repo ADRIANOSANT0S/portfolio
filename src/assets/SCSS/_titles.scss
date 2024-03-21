@@ -1,0 +1,50 @@
+@import './global';
+
+.large-title {
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 16px;
+
+    background: linear-gradient(to right, $gold, $textColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include convertPxToEm(50px)
+}
+
+.middle-title {
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 32px;
+
+    background: linear-gradient(to right, $gold, $textColor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    @include convertPxToEm(40px)
+}
+
+.title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 32px;
+
+    background: linear-gradient(to right, $textColor, $gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include convertPxToEm(32px)
+}
+
+.small-title {
+    margin-bottom: 16px;
+    line-height: 32px;
+    font-weight: 700;
+
+    
+    background: linear-gradient(to right, $textColor, $gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include convertPxToEm(24px);
+}

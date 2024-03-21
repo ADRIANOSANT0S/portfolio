@@ -1,0 +1,38 @@
+@import '@/assets/SCSS/main.scss';
+
+.home {
+    padding: 140px 0 120px;
+    background-image: linear-gradient(to left, $blueII -38%, $mainColor 18%);
+
+    .container {
+        display: flex;
+    }
+
+    &__info {
+        display: inline-block;
+        width: calc(100% / 2);
+        height: 479px;
+        padding: 64px 12px 0;
+
+        &__description {
+            line-height: 32px;
+
+        }
+    }
+
+    &__author {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: 479px;
+        width: calc(100% / 2);
+        padding: 0 12px;
+        border-bottom-left-radius: 100px;
+        border-bottom-left-radius: 20px;
+        
+        &__img {
+            border-radius: 40px;
+            background-image: linear-gradient(to left, $blueII -46%, $black 37%);   
+        }
+    }
+}

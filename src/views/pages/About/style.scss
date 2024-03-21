@@ -1,0 +1,21 @@
+@import '@/assets/SCSS/main.scss';
+
+.about {
+    padding: 120px 0;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__bio {
+        display: flex;
+        
+        &__img {
+            margin-right: 50px;
+            height: 513px;
+            width: 50%;
+            border-radius: 4px;
+        }
+    }
+}

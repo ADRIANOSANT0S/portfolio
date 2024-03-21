@@ -1,0 +1,17 @@
+@import '@/assets/SCSS/main.scss';
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+    position: relative;
+
+    &__button {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: relative;
+        z-index: 2;
+    }
+}

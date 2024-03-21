@@ -1,0 +1,42 @@
+@import './global';
+@import './colors';
+
+.link-text {
+    font-weight: 500;
+    line-height: 22.5px;
+    text-decoration: none;
+    text-wrap: nowrap;
+    color: $textColor;
+
+    @include convertPxToEm(18px)
+}
+
+.link-text:hover {
+    background: linear-gradient(to right, #E28B1E, #dff9fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.large-text {
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 24px;
+
+    @include convertPxToEm(24px)
+}
+
+.middle-text {
+    margin-bottom: 24px;
+    font-weight: 400;
+    line-height: 24px;
+
+    @include convertPxToEm;
+}
+
+.text {
+    margin-bottom: 24px;
+    font-weight: 500;
+    line-height: 16px;
+    
+    @include convertPxToEm(16px)
+}

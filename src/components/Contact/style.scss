@@ -1,0 +1,46 @@
+@import '@/assets/SCSS/main.scss';
+
+.contact {
+    padding: 120px 0;
+
+    .middle-text {
+        max-width: 520px;
+    }
+
+    &__form {
+        display: flex;
+        margin-top: 40px;
+
+        &__address {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start ;
+            max-width: 630px;
+            width: 100%;
+            height: 408px;
+
+            &__item {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                margin-left: 64px;
+
+                .icon {
+                    background-color: $gold;
+                    padding: 10px;
+                    border-radius: 50%;
+
+                    @include convertPxToEm(24px);
+                }
+
+                .contact__data {
+                    margin-left: 32px;
+                    text-align: left;
+                    margin-bottom: 24px;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,20 @@
+@import '@/assets/SCSS/main.scss';
+
+.projects {
+    
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        row-gap: 32px;
+        background-color: red;
+
+        &__item {
+            width: 50%;
+
+            &__img {
+                width: 400px;
+            }
+        }
+    }
+}

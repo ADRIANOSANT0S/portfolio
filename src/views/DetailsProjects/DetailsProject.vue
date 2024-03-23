@@ -2,88 +2,70 @@
     <section>
         <div class="container">
             <div class="projects">
-                <h2 class="middle-title">Destaque</h2>
+                <h2 class="middle-title">Destaques</h2>
                 <ul class="projects__list">
-                    <li class="projects__list__item">
-                        <h3 class="title">Nome projetos</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam quod dignissimos atque. Temporibus unde ea possimus sunt cum adipisci hic necessitatibus deserunt? Impedit, at. Tenetur optio culpa mollitia cupiditate.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam quod dignissimos atque. Temporibus unde ea possimus sunt cum adipisci hic necessitatibus deserunt? Impedit, at. Tenetur optio culpa mollitia cupiditate.
-                        </p>
-                        <div class="routerPro">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
-                        </div>
-                    </li>
-                    <li class="project__list__item">
-                        <h3 class="title">Nome projetos</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam quod dignissimos atque. Temporibus unde ea possimus sunt cum adipisci hic necessitatibus deserunt? Impedit, at. Tenetur optio culpa mollitia cupiditate.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quibusdam quod dignissimos atque. Temporibus unde ea possimus sunt cum adipisci hic necessitatibus deserunt? Impedit, at. Tenetur optio culpa mollitia cupiditate.
-                        </p>
-                        <div class="routerProject">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
+                    <li class="projects__list__item" v-for="project in highline" :key="project.id">
+                        <img class="projects__list__item__img" :src="project.image" :alt="project.title">
+                        <div class="description">
+                            <h3 class="title">{{ project.title }}</h3>
+                            <p class="text">{{ project.description }}</p>
+                            <h4 class="small-title">Veja o Projeto</h4>
+                            <div class="routerProject">
+                                <a :href="project.linkGithub" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fab', 'github']"></fa>
+                                    <span class="btn-text">Github</span>
+                                </a>
+                                <a :href="project.linkProduction" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fas', 'pager']"></fa>
+                                    <span class="btn-text">Produção</span>
+                                </a>
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="projects">
-                <h2 class="middle-title">Front-end</h2>
+                <h2 class="middle-title">Projetos Front-end</h2>
                 <ul class="projects__list">
-                    <li class="projects__list__item">
-                        <h3 class="title">Title Project</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                        </p>
-                        <div class="routerProject">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
-                        </div>
-                    </li>
-                    <li class="project__list__item">
-                        <h3 class="title">Title Project</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                        </p>
-                        <div class="routerProject">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
+                    <li class="projects__list__item" v-for="project in front" :key="project.id">
+                        <img class="projects__list__item__img" :src="project.image" :alt="project.title">
+                        <div class="description">
+                            <h3 class="title">{{ project.title }}</h3>
+                            <p class="text">{{ project.description }}</p>
+                            <h4 class="small-title">Veja o Projeto</h4>
+                            <div class="routerProject">
+                                <a :href="project.linkGithub" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fab', 'github']"></fa>
+                                    <span class="btn-text">Github</span>
+                                </a>
+                                <a :href="project.linkProduction" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fas', 'pager']"></fa>
+                                    <span class="btn-text">Produção</span>
+                                </a>
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="projects">
-                <h2 class="middle-title">Backend</h2>
+                <h2 class="middle-title">Projetos Backend</h2>
                 <ul class="projects__list">
-                    <li class="projects__list__item">
-                        <h3 class="title">Title Project</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                        </p>
-                        <div class="routerProject">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
-                        </div>
-                    </li>
-                    <li class="project__list__item">
-                        <h3 class="title">Title Project</h3>
-                        <img class="projects__list__item__img" src="https://cdn.folhape.com.br/img/pc/450/450/dn_arquivo/2022/03/mansao.jpg" alt="">
-                        <p class="text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, eveniet? At quae asperiores totam consequatur amet possimus dolorem error, dolorum nemo est nulla sapiente natus. Animi optio doloribus quisquam saepe.
-                        </p>
-                        <div class="routerProject">
-                            <a href="#">Github</a>
-                            <a href="#">Produção</a>
+                    <li class="projects__list__item" v-for="project in backend" :key="project.id">
+                        <img class="projects__list__item__img" :src="project.image" :alt="project.title">
+                        <div class="description">
+                            <h3 class="title">{{ project.title }}</h3>
+                            <p class="text">{{ project.description }}</p>
+                            <h4 class="small-title">Veja o Projeto</h4>
+                            <div class="routerProject">
+                                <a :href="project.linkGithub" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fab', 'github']"></fa>
+                                    <span class="btn-text">Github</span>
+                                </a>
+                                <a :href="project.linkProduction" class="buttonIV" target="_blank">
+                                    <fa class="btn-icon" :icon="['fas', 'pager']"></fa>
+                                    <span class="btn-text">Produção</span>
+                                </a>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -93,5 +75,19 @@
 </template>
 
 <script>
+    import Highline from '@/views/Collections/ProjectsData/Highline'
+    import FrontEnd from '@/views/Collections/ProjectsData/FrontEnd'
+    import BackEnd from '@/views/Collections/ProjectsData/BackEnd'
 
+    export default {
+        data() {
+            return {
+                highline: Highline,
+                front: FrontEnd,
+                backend: BackEnd
+            }
+        }
+    }
 </script>
+
+<style src="./style.scss" lang="scss" scoped />

@@ -17,4 +17,10 @@
     &__brand {
         height: 60px;
     }
+
+    @media (min-width: $tablet1) and (max-width: $tablet2) {
+        &__brand {
+            height: 45px;
+        }
+    }
 }

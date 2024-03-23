@@ -1,14 +1,18 @@
+@import './global';
+
 .container {
     max-width: 1320px;
     width: 100%;
     margin: 0 auto;
     padding: 0 12px;
-
-    @media (max-width: 767px) { 
-        width: 80%;
+    
+    @media (min-width: $tablet1) and (max-width: $tablet2) { 
+        padding: 0 24px;
     }
 
-    @media (min-width: 768px) and (max-width: 1023px) { 
+        
+    @media (max-width: $mobile) { 
         width: 90%;
+        padding: 0;
     }
 }

@@ -46,4 +46,14 @@
             }
         }
     }
+
+    @media (min-width: $tablet1) and (max-width: $tablet2) {
+        .link-text {
+            @include convertPxToEm(16px)
+        }
+    }
+
+    @media (max-width: $mobile) {
+        display: none;
+    }
 }

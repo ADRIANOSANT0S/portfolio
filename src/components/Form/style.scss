@@ -59,4 +59,11 @@
         
         @include formText;
     }
+
+    @media (max-width: $mobile) {
+        .form__highline {
+            display: block;
+
+        }
+    }
 }

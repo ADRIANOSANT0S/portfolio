@@ -6,13 +6,13 @@
                 <button class="link-text projects__nav__button" type="button" v-for="(button, index) in buttons" :key="index" @click="toggleTab(index)">{{ button }}</button>
             </nav>
             <ul class="projects__list" v-for="(tab, index) in tabs" :key="index" v-show="activeTab === index" data-tab-id="index">
-                <li class="projects__list__item" v-for="(project, projectIndex) in tab" :key="projectIndex">
+                <li class="projects__list__item" v-for="project in tab" :key="project.id">
                     <img class="projects__list__item__img" :src="project.image" :alt="project.title">
                     <div class="projects__list__item__detail">
                         <h4 class="small-title">{{ project.title }}</h4>
-                        <p class="small-tex">{{ project.description }}</p>
+                        <p class="small-tex">{{ project.technology }}</p>
                         <button class="buttonII">
-                            <router-link target="_blank" :to="project.link" class="link-text">
+                            <router-link target="_blank" :id="project.id" :to="project.id" class="link-text">
                                 Detalhe projetos 
                                 <fa :icon="['fas', 'arrow-right']"></fa>
                             </router-link>

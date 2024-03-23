@@ -78,6 +78,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-wrap: nowrap;
 
     @include convertPxToEm(15px);
 
@@ -153,5 +154,54 @@
 
     &:active {
         transform: scale(1);
+    }
+}
+
+.buttonIV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    transition-duration: .4s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: $gold;
+    color: $textColor;
+
+    .btn-icon {
+        transition-duration: .3s;
+    }
+
+    .btn-text {
+        position: absolute;
+        color: $textColor;
+        width: 100%;
+        font-weight: 600;
+        opacity: 0;
+        transition-duration: .4s;
+        z-index: 1; 
+        top: 50%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+        width: 110px;
+        transition-duration: .4s;
+        border-radius: 30px;
+
+        .btn-icon{
+            color: transparent;
+        }
+
+        .btn-text {
+            opacity: 1;
+            transition-duration: .4s;
+        }
     }
 }

@@ -3,7 +3,7 @@
         <div class="container">
             <h2 class="middle-title">Minhas Skills</h2>
             <blockquote class="middle-text">
-                <span class="text-italic">"Os homes obtem êxito não por aquilo que sabem, mas pelo que se lembram e põem de fato em uso."</span> - Myles Gaythwaite
+                <em>"Os homes obtem êxito não por aquilo que sabem, mas pelo que se lembram e põem de fato em uso."</em> - Myles Gaythwaite
             </blockquote>
             <ul class="skills__list">
                 <li class="skills__list__item" v-for="(skill, id) in mySkills" :key="id">

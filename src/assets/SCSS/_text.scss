@@ -7,14 +7,14 @@
     text-decoration: none;
     text-wrap: nowrap;
     color: $textColor;
+    
+    &:hover {
+        background: linear-gradient(to right, #E28B1E, #dff9fb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
     @include convertPxToEm(18px)
-}
-
-.link-text:hover {
-    background: linear-gradient(to right, #E28B1E, #dff9fb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .large-text {
@@ -22,7 +22,17 @@
     line-height: 32px;
     margin-bottom: 24px;
 
-    @include convertPxToEm(24px)
+    @include convertPxToEm(24px);
+
+    @media (min-width: $tablet1) and (max-width: $tablet2) {
+        line-height: 24px;
+
+        @include convertPxToEm(18px)
+    }
+
+    @media (max-width: $mobile) {
+        @include convertPxToEm(20px)
+    }
 }
 
 .middle-text {
@@ -36,7 +46,7 @@
 .text {
     margin-bottom: 24px;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 24px;
     
-    @include convertPxToEm(16px)
+    @include convertPxToEm(14px)
 }

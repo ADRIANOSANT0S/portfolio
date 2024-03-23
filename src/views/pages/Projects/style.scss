@@ -56,4 +56,16 @@
             }
         }
     }
+
+    @media (min-width: $tablet1) and (max-width: $tablet3) {
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media (max-width: $mobile) {
+        &__list {
+            grid-template-columns: 1fr;
+        }
+    }
 }

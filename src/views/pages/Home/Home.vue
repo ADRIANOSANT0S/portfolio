@@ -11,7 +11,7 @@
 				<p class="large-text">
 					Apaixonado por inovação tecnológica. Desenvolvo soluções completas, desde a interface do usuário até a infraestrutura de back-end. Estou sempre me dedicando para entregar as soluções mais eficazes.
 				</p>
-			<ButtonsSocial />
+				<ButtonsSocial />
 			</div>
 			<div class="home__author">
 				<img class="home__author__img" src="@/assets/images/I.png" alt="Imagem do Adriano">

@@ -35,12 +35,27 @@
                 }
 
                 .contact__data {
-                    margin-left: 32px;
+                    margin: 0 0 24px 32px ;
                     text-align: left;
-                    margin-bottom: 24px;
                 }
             }
         }
     }
 
+    @media (max-width: $mobile) {
+        &__form {
+            display: block;
+
+            &__address {
+                &__item {
+                    margin-left: 0;
+
+                    .contact__data {
+                        margin: 0 0 24px 24px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
 }

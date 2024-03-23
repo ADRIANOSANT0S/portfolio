@@ -18,4 +18,28 @@
             border-radius: 4px;
         }
     }
+
+    @media (min-width: $tablet1) and (max-width: $tablet2) {
+        &__bio {
+            flex-direction: column-reverse;
+
+            &__img {
+                width: 100%;
+                margin: 16px 0;
+            }
+        }
+    }
+
+    @media (max-width: $mobile) {
+        &__bio {
+            display: block;
+
+            &__img {
+                margin: 0 0 40px;
+                height: 370px;
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+    }
 }

@@ -64,8 +64,15 @@
     }
     
     @media (max-width: $mobile) {
+        .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
         &__list {
             grid-template-columns: 1fr;
+            max-width: 550px;
+            width: 100%;
         }
     }
 }

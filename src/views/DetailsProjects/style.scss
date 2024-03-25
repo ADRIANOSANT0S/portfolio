@@ -2,10 +2,12 @@
 
 .projects {
     padding: 120px 0;
+
     &__list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
+        flex-wrap: wrap;
 
         &__item {
             background-color: lighten($black, 2%);
@@ -25,6 +27,18 @@
                     gap: 32px;
                 }
             }
+        }
+    }
+
+    @media (max-width: $mobile) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &__list {
+            grid-template-columns: 1fr;
+            max-width: 550px;
+            width: 100%;
         }
     }
 }

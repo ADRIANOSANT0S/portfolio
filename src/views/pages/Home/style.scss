@@ -53,10 +53,9 @@
         }
     }
 
-    @media (max-width: $mobile) {
-        
+    @media screen and (max-width: $mobile) {        
         .container {
-            flex-direction: column;
+            display: block;
         }
 
         &__info {
@@ -75,7 +74,5 @@
                 width: 100%;
             } 
         }
-
     }
-
 }

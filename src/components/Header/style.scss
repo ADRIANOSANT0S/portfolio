@@ -23,4 +23,10 @@
             height: 45px;
         }
     }
+    
+    @media screen and (max-width: $mobile) {
+        &__brand {
+            height: 40px;
+        }
+    }
 }

@@ -62,6 +62,8 @@
     @media (max-width: $mobile) {
         &__list {
             grid-template-columns: 1fr;
+            max-width: 550px;
+            width: 100%;
         }
 
         .middle-text {

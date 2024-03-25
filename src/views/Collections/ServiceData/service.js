@@ -1,7 +1,7 @@
 export default [
     { 
         title: 'Desenvolvimento Web',
-        description: 'Crio seu site sob medida, unindo design moderno e funcionalidades avançadas para uma presença online única.', 
+        description: 'Crio site responsivos sob medida, unindo design moderno e funcionalidades avançadas para uma presença online única.', 
         image: '/src/assets/images/service/dev-web.jpg',
     },
     { 

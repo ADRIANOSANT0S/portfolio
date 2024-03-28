@@ -1,32 +1,32 @@
 @import '@/assets/SCSS/main.scss';
 
 .header {
-    position: sticky;
-    z-index: 1000;
-    top: 0;
-    padding: 15px 0;
-    background-image: linear-gradient(to left, $blueII -38%, $mainColor 18%);
-    box-shadow: 0 0 30px rgba(80, 94, 247, 0.2);
-    
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  padding: 15px 0;
+  background-image: linear-gradient(to left, $blueII -38%, $mainColor 18%);
+  box-shadow: 0 0 30px rgba(80, 94, 247, 0.2);
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__brand {
+    height: 60px;
+  }
+
+  @media (min-width: $tablet1) and (max-width: $tablet2) {
     &__brand {
-        height: 60px;
+      height: 45px;
     }
+  }
 
-    @media (min-width: $tablet1) and (max-width: $tablet2) {
-        &__brand {
-            height: 45px;
-        }
+  @media screen and (max-width: $mobile) {
+    &__brand {
+      height: 40px;
     }
-    
-    @media screen and (max-width: $mobile) {
-        &__brand {
-            height: 40px;
-        }
-    }
+  }
 }

@@ -1,78 +1,77 @@
 @import '@/assets/SCSS/main.scss';
 
 .home {
-    padding: 140px 0 120px;
-    background-image: linear-gradient(to left, $blueII -38%, $mainColor 18%);
+  padding: 140px 0 120px;
+  background-image: linear-gradient(to left, $blueII -38%, $mainColor 18%);
 
-    .container {
-        display: flex;
+  .container {
+    display: flex;
+  }
+
+  &__info {
+    display: inline-block;
+    width: calc(100% / 2);
+    height: 479px;
+    padding: 64px 12px 0;
+
+    &__description {
+      line-height: 32px;
     }
+  }
+
+  &__author {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 479px;
+    width: calc(100% / 2);
+    padding: 0 12px;
+    border-bottom-left-radius: 100px;
+    border-bottom-left-radius: 20px;
+
+    &__img {
+      border-radius: 40px;
+      background-image: linear-gradient(to left, $blueII -46%, $black 37%);
+    }
+  }
+
+  @media (min-width: $tablet1) and (max-width: $tablet2) {
+    padding-top: 120px;
 
     &__info {
-        display: inline-block;
-        width: calc(100% / 2);
-        height: 479px;
-        padding: 64px 12px 0;
-
-        &__description {
-            line-height: 32px;
-
-        }
+      padding: 64px 0 0;
+      height: auto;
+      width: 100%;
     }
 
     &__author {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        height: 479px;
-        width: calc(100% / 2);
-        padding: 0 12px;
-        border-bottom-left-radius: 100px;
-        border-bottom-left-radius: 20px;
-        
-        &__img {
-            border-radius: 40px;
-            background-image: linear-gradient(to left, $blueII -46%, $black 37%);   
-        }
+      padding: 0;
+      &__img {
+        width: 332px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $mobile) {
+    .container {
+      display: block;
     }
 
-    @media (min-width: $tablet1) and (max-width: $tablet2) {
-        padding-top: 120px;
-
-        &__info {
-            padding: 64px 0 0;
-            height: auto;
-            width: 100%;
-        }
-
-        &__author {
-            padding: 0;
-            &__img {
-                width: 332px;
-            } 
-        }
+    &__info {
+      padding: 64px 0 0;
+      height: auto;
+      width: 100%;
     }
 
-    @media screen and (max-width: $mobile) {        
-        .container {
-            display: block;
-        }
+    &__author {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
 
-        &__info {
-            padding: 64px 0 0;
-            height: auto;
-            width: 100%;
-        }
-
-        &__author {
-            display: block;
-            width: 100%;
-            height: auto;
-            margin-top: 40px;
-            
-            &__img {
-                width: 100%;
-            } 
-        }
+      &__img {
+        width: 100%;
+      }
     }
+  }
 }

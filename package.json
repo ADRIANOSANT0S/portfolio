@@ -14,11 +14,16 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "jquery": "^3.7.1",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
+    "eslint": "^8.57.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-vue": "^9.24.0",
+    "prettier": "3.2.5",
     "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
     "vite": "^5.0.11"

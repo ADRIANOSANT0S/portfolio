@@ -1,45 +1,45 @@
 @import '@/assets/SCSS/main.scss';
 
 .about {
-    padding: 120px 0;
+  padding: 120px 0;
 
-    &__title {
-        text-align: center;
-        margin-bottom: 50px;
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__bio {
+    display: flex;
+
+    &__img {
+      margin-right: 50px;
+      height: 513px;
+      width: 50%;
+      border-radius: 4px;
     }
+  }
 
+  @media (min-width: $tablet1) and (max-width: $tablet2) {
     &__bio {
-        display: flex;
-        
-        &__img {
-            margin-right: 50px;
-            height: 513px;
-            width: 50%;
-            border-radius: 4px;
-        }
+      flex-direction: column-reverse;
+
+      &__img {
+        width: 100%;
+        margin: 16px 0;
+      }
     }
+  }
 
-    @media (min-width: $tablet1) and (max-width: $tablet2) {
-        &__bio {
-            flex-direction: column-reverse;
+  @media (max-width: $mobile) {
+    &__bio {
+      display: block;
 
-            &__img {
-                width: 100%;
-                margin: 16px 0;
-            }
-        }
+      &__img {
+        margin: 0 0 40px;
+        height: 370px;
+        width: 100%;
+        border-radius: 4px;
+      }
     }
-
-    @media (max-width: $mobile) {
-        &__bio {
-            display: block;
-
-            &__img {
-                margin: 0 0 40px;
-                height: 370px;
-                width: 100%;
-                border-radius: 4px;
-            }
-        }
-    }
+  }
 }

@@ -1,61 +1,61 @@
 @import '@/assets/SCSS/main.scss';
 
 .contact {
-    padding: 120px 0;
+  padding: 120px 0;
 
-    .middle-text {
-        max-width: 520px;
-    }
+  .middle-text {
+    max-width: 520px;
+  }
 
-    &__form {
+  &__form {
+    display: flex;
+    margin-top: 40px;
+
+    &__address {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      max-width: 630px;
+      width: 100%;
+      height: 408px;
+
+      &__item {
         display: flex;
-        margin-top: 40px;
+        align-items: start;
+        justify-content: center;
+        margin-left: 64px;
 
-        &__address {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: start ;
-            max-width: 630px;
-            width: 100%;
-            height: 408px;
+        .icon {
+          background-color: $gold;
+          padding: 10px;
+          border-radius: 50%;
 
-            &__item {
-                display: flex;
-                align-items: start;
-                justify-content: center;
-                margin-left: 64px;
-
-                .icon {
-                    background-color: $gold;
-                    padding: 10px;
-                    border-radius: 50%;
-
-                    @include convertPxToEm(24px);
-                }
-
-                .contact__data {
-                    margin: 0 0 24px 32px ;
-                    text-align: left;
-                }
-            }
+          @include convertPxToEm(24px);
         }
-    }
 
-    @media (max-width: $mobile) {
-        &__form {
-            display: block;
-
-            &__address {
-                &__item {
-                    margin-left: 0;
-
-                    .contact__data {
-                        margin: 0 0 24px 24px;
-                        text-align: left;
-                    }
-                }
-            }
+        .contact__data {
+          margin: 0 0 24px 32px;
+          text-align: left;
         }
+      }
     }
+  }
+
+  @media (max-width: $mobile) {
+    &__form {
+      display: block;
+
+      &__address {
+        &__item {
+          margin-left: 0;
+
+          .contact__data {
+            margin: 0 0 24px 24px;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
 }

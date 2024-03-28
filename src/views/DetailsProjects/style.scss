@@ -1,44 +1,44 @@
 @import '@/assets/SCSS/main.scss';
 
 .projects {
-    padding: 120px 0;
+  padding: 120px 0;
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    flex-wrap: wrap;
+
+    &__item {
+      background-color: lighten($black, 2%);
+      box-shadow: 0 8px 80px rgba(9, 6, 3, 0.5);
+      border-radius: 20px;
+
+      &__img {
+        width: 100%;
+        border-radius: 5px;
+      }
+
+      .description {
+        padding: 32px 16px;
+
+        .routerProject {
+          display: flex;
+          gap: 32px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: $mobile) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
     &__list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 40px;
-        flex-wrap: wrap;
-
-        &__item {
-            background-color: lighten($black, 2%);
-            box-shadow: 0 8px 80px rgba(9, 6, 3, .5);
-            border-radius: 20px;
-
-            &__img {
-                width: 100%;
-                border-radius: 5px;
-            }
-
-            .description {
-                padding: 32px 16px;
-
-                .routerProject {
-                    display: flex;
-                    gap: 32px;
-                }
-            }
-        }
+      grid-template-columns: 1fr;
+      max-width: 550px;
+      width: 100%;
     }
-
-    @media (max-width: $mobile) {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-
-        &__list {
-            grid-template-columns: 1fr;
-            max-width: 550px;
-            width: 100%;
-        }
-    }
+  }
 }

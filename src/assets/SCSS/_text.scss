@@ -2,51 +2,51 @@
 @import './colors';
 
 .link-text {
-    font-weight: 500;
-    line-height: 22.5px;
-    text-decoration: none;
-    text-wrap: nowrap;
-    color: $textColor;
-    
-    &:hover {
-        background: linear-gradient(to right, #E28B1E, #dff9fb);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
+  font-weight: 500;
+  line-height: 22.5px;
+  text-decoration: none;
+  text-wrap: nowrap;
+  color: $textColor;
 
-    @include convertPxToEm(18px)
+  &:hover {
+    background: linear-gradient(to right, #e28b1e, #dff9fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @include convertPxToEm(18px);
 }
 
 .large-text {
-    font-weight: 500;
-    line-height: 32px;
-    margin-bottom: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 24px;
 
-    @include convertPxToEm(24px);
+  @include convertPxToEm(24px);
 
-    @media (min-width: $tablet1) and (max-width: $tablet2) {
-        line-height: 24px;
+  @media (min-width: $tablet1) and (max-width: $tablet2) {
+    line-height: 24px;
 
-        @include convertPxToEm(18px)
-    }
+    @include convertPxToEm(18px);
+  }
 
-    @media (max-width: $mobile) {
-        @include convertPxToEm(20px)
-    }
+  @media (max-width: $mobile) {
+    @include convertPxToEm(20px);
+  }
 }
 
 .middle-text {
-    margin-bottom: 24px;
-    font-weight: 400;
-    line-height: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  line-height: 24px;
 
-    @include convertPxToEm;
+  @include convertPxToEm;
 }
 
 .text {
-    margin-bottom: 24px;
-    font-weight: 500;
-    line-height: 24px;
-    
-    @include convertPxToEm(14px)
+  margin-bottom: 24px;
+  font-weight: 500;
+  line-height: 24px;
+
+  @include convertPxToEm(14px);
 }

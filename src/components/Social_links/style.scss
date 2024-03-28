@@ -1,25 +1,25 @@
 @import '@/assets/SCSS/main.scss';
 
 .social {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  position: relative;
+
+  &__button {
     display: flex;
     align-items: center;
-    gap: 50px;
-    margin-top: 50px;
+    gap: 8px;
     position: relative;
+    z-index: 2;
+  }
 
-    &__button {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        position: relative;
-        z-index: 2;
-    }
+  @media (min-width: $tablet1) and (max-width: $tablet3) {
+    gap: 20px;
+  }
 
-    @media (min-width: $tablet1) and (max-width: $tablet3) {
-        gap: 20px;
-    }
-
-    @media (max-width: $mobile) {
-        gap: 16px;
-    }
+  @media (max-width: $mobile) {
+    gap: 16px;
+  }
 }

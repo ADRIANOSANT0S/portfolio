@@ -38,4 +38,8 @@ body {
   background-color: $mainColor;
   color: $textColor;
 }
+
+html {
+  scroll-behavior: smooth;
+}
 </style>

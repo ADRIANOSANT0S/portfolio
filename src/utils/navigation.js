@@ -1,6 +1,5 @@
-//Função responsavel por fazer a navegação entre as páginas
 function navigateToSection(sectionId) {
-  if (this.$route.path === '/detailsProjects') {
+  if (this.$route.path === '/detailsProjects/' || this.$route.path === '/detailsProjects') {
     this.$router.push({ path: '/', hash: '#' + sectionId })
   } else {
     const element = document.getElementById(sectionId)

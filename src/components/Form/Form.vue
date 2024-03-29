@@ -9,7 +9,7 @@
           name="firstName"
           id="firstName"
         />
-        <ErrorMessage class="error" name="firstName"/>
+        <ErrorMessage class="error" name="firstName" />
       </div>
       <div class="form__item">
         <label class="text" for="lastName">Seu sobre nome*</label>
@@ -86,18 +86,24 @@ import { object, string } from 'yup'
 export default {
   name: 'FormProject',
 
-  components: { Form, ErrorMessage, Field},
+  components: { Form, ErrorMessage, Field },
 
   directives: { mask },
 
   setup() {
     const schema = object({
       firstName: string()
-        .matches(/^['a-zA-ZÀ-ÿ\s']+$/, 'Seu nome só pode conter letras espaços e acentos.')
+        .matches(
+          /^['a-zA-ZÀ-ÿ\s']+$/,
+          'Seu nome só pode conter letras espaços e acentos.'
+        )
         .required('Por favor informe seu nome.')
-        .min(3,'seu nome deve ter pelo menos 3 caracteres'),
+        .min(3, 'seu nome deve ter pelo menos 3 caracteres'),
       lastName: string()
-        .matches(/^['a-zA-ZÀ-ÿ\s']+$/, 'Seu nome só pode conter letras espaços e acentos.')
+        .matches(
+          /^['a-zA-ZÀ-ÿ\s']+$/,
+          'Seu nome só pode conter letras espaços e acentos.'
+        )
         .required('Por favor informe seu sobre nome.')
         .min(4, 'seu sobrenome deve ter pelo menos 4 caracteres.'),
       email: string()
@@ -106,10 +112,14 @@ export default {
       tel: string().required('Por favor informe um telefone para contato.'),
       services: string()
         .required('Por favor, escolha um serviço.')
-        .test('is-service-selected', 'Por favor, escolha um serviço.', value => value !== ''),
+        .test(
+          'is-service-selected',
+          'Por favor, escolha um serviço.',
+          (value) => value !== ''
+        ),
       message: string()
-      .required('Por favor, detalhe seu projeto para que possamos ajudá-lo.')
-      .min(10, 'Por favor, forneça mais detalhes sobre o seu projeto.')
+        .required('Por favor, detalhe seu projeto para mim poder ajudar.')
+        .min(10, 'Por favor, forneça mais detalhes sobre o seu projeto.')
     })
 
     configure({

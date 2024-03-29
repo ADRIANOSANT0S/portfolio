@@ -33,17 +33,14 @@
           <div class="projects__list__item__detail">
             <h4 class="small-title">{{ project.title }}</h4>
             <p class="small-tex">{{ project.technology }}</p>
-            <button class="buttonII">
-              <router-link
-                target="_blank"
-                :id="project.id"
-                :to="project.id"
-                class="link-text"
-              >
-                Detalhe projetos
-                <fa :icon="['fas', 'arrow-right']"></fa>
-              </router-link>
-            </button>
+            <router-link :to="`/detailsProjects/#${project.id}`">
+              <button class="buttonII">
+                <span class="link-text">
+                  Detalhe projetos
+                  <fa :icon="['fas', 'arrow-right']"></fa>
+                </span>
+              </button>
+            </router-link>
           </div>
         </li>
       </ul>

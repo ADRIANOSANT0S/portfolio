@@ -8,7 +8,9 @@
             class="projects__list__item"
             v-for="project in highline"
             :key="project.id"
+            :id="project.id"
           >
+            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"
@@ -43,7 +45,9 @@
             class="projects__list__item"
             v-for="project in front"
             :key="project.id"
+            :id="project.id"
           >
+            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"
@@ -78,7 +82,9 @@
             class="projects__list__item"
             v-for="project in backend"
             :key="project.id"
+            :id="project.id"
           >
+            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"

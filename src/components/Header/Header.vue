@@ -18,6 +18,7 @@ import NavProject from '../Nav/Nav.vue'
 
 export default {
   name: 'Header',
+
   components: {
     NavProject
   }

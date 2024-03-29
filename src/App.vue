@@ -1,7 +1,14 @@
+<template>
+  <HeaderProject />
+  <RouterView />
+  <Contact />
+  <FooterProject />
+</template>
+
 <script>
 import HeaderProject from '@/components/Header/Header.vue'
 import FooterProject from '@/components/Footer/Footer.vue'
-import Contact from '@/co@/components/Contact/ContactData.vue'
+import Contact from '@/components/Contact/ContactData.vue'
 
 export default {
   components: {
@@ -11,13 +18,6 @@ export default {
   }
 }
 </script>
-
-<template>
-  <HeaderProject />
-  <RouterView />
-  <Contact />
-  <FooterProject />
-</template>
 
 <style lang="scss">
 @import 'assets/SCSS/main.scss';
@@ -37,9 +37,5 @@ html,
 body {
   background-color: $mainColor;
   color: $textColor;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 </style>

@@ -14,6 +14,6 @@
   },
   "plugins": ["vue"],
   "rules": {
-
+    "linebreak-style": ["error", "windows"]
   }
 }

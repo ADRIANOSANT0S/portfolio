@@ -50,3 +50,9 @@
 
   @include convertPxToEm(14px);
 }
+
+.error {
+  color: red;
+
+  @include convertPxToEm(12px);
+}

@@ -9,8 +9,9 @@
   box-shadow: 0 8px 80px rgba(30, 30, 40, 0.2);
 
   &__highline {
-    display: flex;
+    display: grid;
     gap: 24px;
+    grid-template-columns: 1fr 1fr;
   }
 
   &__item {
@@ -27,6 +28,12 @@
       border: none;
       background-color: $bgInput;
 
+      &:focus {
+        &::placeholder {
+          opacity: .5;
+        }
+      }
+
       @include formText;
     }
 
@@ -42,7 +49,7 @@
   &__option {
     margin-top: 16px;
     width: 100%;
-    margin-bottom: 24px;
+    margin-bottom: 0;
     padding: 8px;
     border-radius: 10px;
     background-color: $bgInput;

@@ -41,8 +41,8 @@
 import FormProject from '@/components/Form/Form.vue'
 
 export default {
-    name: "Contact",
-    components: { FormProject }
+  name: 'Contact',
+  components: { FormProject }
 }
 </script>
 

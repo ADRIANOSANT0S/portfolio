@@ -195,4 +195,10 @@
       }
     }
   }
+
+  @media (max-width: 410px) {
+    .buttonI {
+      display: none;
+    }
+  }
 }

@@ -4,79 +4,79 @@ export default [
     title: 'HTML'
   },
   {
-    image: '../../../public/images/skills/git.png',
+    image: '../../../public/images/git.png',
     title: 'Git'
   },
   {
-    image: '../../../public/images/skills/github.png',
+    image: '../../../public/images/github.png',
     title: 'Github'
   },
   {
-    image: '../../../public/images/skills/javascript.png',
+    image: '../../../public/images/javascript.png',
     title: 'Javascript'
   },
   {
-    image: '../../../public/images/skills/typescript.webp',
+    image: '../../../public/images/typescript.webp',
     title: 'Typescript'
   },
   {
-    image: '../../../public/images/skills/Python.png',
+    image: '../../../public/images/Python.png',
     title: 'Python'
   },
   {
-    image: '../../../public/images/skills/css.png',
+    image: '../../../public/images/css.png',
     title: 'CSS'
   },
   {
-    image: '../../../public/images/skills/sass.png',
+    image: '../../../public/images/sass.png',
     title: 'SASS'
   },
   {
-    image: '../../../public/images/skills/less.webp',
+    image: '../../../public/images/less.webp',
     title: 'LESS'
   },
   {
-    image: '../../../public/images/skills/bootstrap.png',
+    image: '../../../public/images/bootstrap.png',
     title: 'Bootstrap'
   },
   {
-    image: '../../../public/images/skills/gulp.png',
+    image: '../../../public/images/gulp.png',
     title: 'Gulp'
   },
   {
-    image: '../../../public/images/skills/grunt.png',
+    image: '../../../public/images/grunt.png',
     title: 'Grunt'
   },
   {
-    image: '../../../public/images/skills/parcel.png',
+    image: '../../../public/images/parcel.png',
     title: 'Parcel'
   },
   {
-    image: '../../../public/images/skills/jquery.png',
+    image: '../../../public/images/jquery.png',
     title: 'jQuery'
   },
   {
-    image: '../../../public/images/skills/vue.png',
+    image: '../../../public/images/vue.png',
     title: 'Vue'
   },
   {
-    image: '../../../public/images/skills/react.svg',
+    image: '../../../public/images/react.svg',
     title: 'React'
   },
   {
-    image: '../../../public/images/skills/redux.svg',
+    image: '../../../public/images/redux.svg',
     title: 'Redux'
   },
   {
-    image: '../../../public/images/skills/stylecomponent.jpg',
+    image: '../../../public/images/stylecomponent.jpg',
     title: 'Style Component'
   },
   {
-    image: '../../../public/images/skills/cypress.png',
+    image: '../../../public/images/cypress.png',
     title: 'Cypress'
   },
   {
-    image: '../../../public/images/skills/ftp.jpg',
+    image: '../../../public/images/ftp.jpg',
     title: 'FTP'
   }
 ]

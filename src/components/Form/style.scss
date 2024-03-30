@@ -53,6 +53,8 @@
     padding: 8px;
     border-radius: 10px;
     background-color: $bgInput;
+    outline: none;
+    border: none;
 
     @include formText;
   }

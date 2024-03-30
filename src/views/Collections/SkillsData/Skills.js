@@ -1,84 +1,103 @@
-import html from '../../../../public/images/html.png'
+import HTML from '../../../../public/images/skills/html.png'
+import GIT from '../../../../public/images/skills/git.png'
+import GITHUB from '../../../../public/images/skills/github.png'
+import JS from '../../../../public/images/skills/javascript.png'
+import TS from '../../../../public/images/skills/typescript.webp'
+import PYTHON from '../../../../public/images/skills/Python.png'
+import CSS from '../../../../public/images/skills/css.png'
+import SASS from '../../../../public/images/skills/sass.png'
+import LESS from '../../../../public/images/skills/less.webp'
+import BOOTSTRAP from '../../../../public/images/skills/bootstrap.png'
+import GULP from '../../../../public/images/skills/gulp.png'
+import GRUNT from '../../../../public/images/skills/grunt.png'
+import PARCEL from '../../../../public/images/skills/parcel.png'
+import JQUERY from '../../../../public/images/skills/jquery.png'
+import VUE from '../../../../public/images/skills/vue.png'
+import REACT from '../../../../public/images/skills/react.svg'
+import REDUX from '../../../../public/images/skills/redux.svg'
+import STYLECOMPONENT from '../../../../public/images/skills/stylecomponent.jpg'
+import CYPRESS from '../../../../public/images/skills/cypress.jpg'
+import FTP from '../../../../public/images/skills/ftp.jpg'
 
 export default [
   {
-    image: html,
+    image: HTML,
     title: 'HTML'
   },
   {
-    image: '../../../public/images/git.png',
+    image: GIT,
     title: 'Git'
   },
   {
-    image: '../../../public/images/github.png',
+    image: GITHUB,
     title: 'Github'
   },
   {
-    image: '../../../public/images/javascript.png',
+    image: JS,
     title: 'Javascript'
   },
   {
-    image: '../../../public/images/typescript.webp',
+    image: TS,
     title: 'Typescript'
   },
   {
-    image: '../../../public/images/Python.png',
+    image: PYTHON,
     title: 'Python'
   },
   {
-    image: '../../../public/images/css.png',
+    image: CSS,
     title: 'CSS'
   },
   {
-    image: '../../../public/images/sass.png',
+    image: SASS,
     title: 'SASS'
   },
   {
-    image: '../../../public/images/less.webp',
+    image: LESS,
     title: 'LESS'
   },
   {
-    image: '../../../public/images/bootstrap.png',
+    image: BOOTSTRAP,
     title: 'Bootstrap'
   },
   {
-    image: '../../../public/images/gulp.png',
+    image: GULP,
     title: 'Gulp'
   },
   {
-    image: '../../../public/images/grunt.png',
+    image: GRUNT,
     title: 'Grunt'
   },
   {
-    image: '../../../public/images/parcel.png',
+    image: PARCEL,
     title: 'Parcel'
   },
   {
-    image: '../../../public/images/jquery.png',
+    image: JQUERY,
     title: 'jQuery'
   },
   {
-    image: '../../../public/images/vue.png',
+    image: VUE,
     title: 'Vue'
   },
   {
-    image: '../../../public/images/react.svg',
+    image: REACT,
     title: 'React'
   },
   {
-    image: '../../../public/images/redux.svg',
+    image: REDUX,
     title: 'Redux'
   },
   {
-    image: '../../../public/images/stylecomponent.jpg',
+    image: STYLECOMPONENT,
     title: 'Style Component'
   },
   {
-    image: '../../../public/images/cypress.png',
+    image: CYPRESS,
     title: 'Cypress'
   },
   {
-    image: '../../../public/images/ftp.jpg',
+    image: FTP,
     title: 'FTP'
   }
 ]

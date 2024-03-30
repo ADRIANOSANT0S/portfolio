@@ -110,13 +110,7 @@ export default {
         .email('Por favor informe um email válido.')
         .required('Por favor informe seu email'),
       tel: string().required('Por favor informe um telefone para contato.'),
-      services: string()
-        .required('Por favor, escolha um serviço.')
-        .test(
-          'is-service-selected',
-          'Por favor, escolha um serviço.',
-          (value) => value !== ''
-        ),
+      services: string().required('Por favor, escolha um serviço.'),
       message: string()
         .required('Por favor, detalhe seu projeto para mim poder ajudar.')
         .min(10, 'Por favor, forneça mais detalhes sobre o seu projeto.')
@@ -124,8 +118,8 @@ export default {
 
     configure({
       validateOnBlur: true,
-      errorBagName: 'errors',
-      validateOnInput: true
+      validateOnInput: true,
+      errorBagName: 'errors'
     })
 
     return { schema }

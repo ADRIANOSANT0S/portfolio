@@ -1,82 +1,82 @@
 export default [
   {
-    image: './src/assets/images/skills/html.png',
+    image: '/src/assets/images/html.png',
     title: 'HTML'
   },
   {
-    image: './src/assets/images/skills/git.png',
+    image: '/src/assets/images/git.png',
     title: 'Git'
   },
   {
-    image: './src/assets/images/skills/github.png',
+    image: '/src/assets/images/github.png',
     title: 'Github'
   },
   {
-    image: './src/assets/images/skills/javascript.png',
+    image: '/src/assets/images/javascript.png',
     title: 'Javascript'
   },
   {
-    image: './src/assets/images/skills/typescript.webp',
+    image: '/src/assets/images/typescript.webp',
     title: 'Typescript'
   },
   {
-    image: './src/assets/images/skills/Python.png',
+    image: '/src/assets/images/Python.png',
     title: 'Python'
   },
   {
-    image: './src/assets/images/skills/css.png',
+    image: '/src/assets/images/css.png',
     title: 'CSS'
   },
   {
-    image: './src/assets/images/skills/sass.png',
+    image: '/src/assets/images/sass.png',
     title: 'SASS'
   },
   {
-    image: './src/assets/images/skills/less.webp',
+    image: '/src/assets/images/less.webp',
     title: 'LESS'
   },
   {
-    image: './src/assets/images/skills/bootstrap.png',
+    image: '/src/assets/images/bootstrap.png',
     title: 'Bootstrap'
   },
   {
-    image: './src/assets/images/skills/gulp.png',
+    image: '/src/assets/images/gulp.png',
     title: 'Gulp'
   },
   {
-    image: './src/assets/images/skills/grunt.png',
+    image: '/src/assets/images/grunt.png',
     title: 'Grunt'
   },
   {
-    image: './src/assets/images/skills/parcel.png',
+    image: '/src/assets/images/parcel.png',
     title: 'Parcel'
   },
   {
-    image: './src/assets/images/skills/jquery.png',
+    image: '/src/assets/images/jquery.png',
     title: 'jQuery'
   },
   {
-    image: './src/assets/images/skills/vue.png',
+    image: '/src/assets/images/vue.png',
     title: 'Vue'
   },
   {
-    image: './src/assets/images/skills/react.svg',
+    image: '/src/assets/images/react.svg',
     title: 'React'
   },
   {
-    image: './src/assets/images/skills/redux.svg',
+    image: '/src/assets/images/redux.svg',
     title: 'Redux'
   },
   {
-    image: './src/assets/images/skills/stylecomponent.jpg',
+    image: '/src/assets/images/stylecomponent.jpg',
     title: 'Style Component'
   },
   {
-    image: './src/assets/images/skills/cypress.png',
+    image: '/src/assets/images/cypress.png',
     title: 'Cypress'
   },
   {
-    image: './src/assets/images/skills/ftp.jpg',
+    image: '/src/assets/images/ftp.jpg',
     title: 'FTP'
   }
 ]

@@ -4,7 +4,7 @@
       <router-link to="/">
         <img
           class="header__brand"
-          src="@/assets/images/logo.png"
+          src="../../../public/images/logo.png"
           alt="Imagem do Adriano"
         />
       </router-link>

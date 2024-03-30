@@ -1,82 +1,82 @@
 export default [
   {
-    image: '/src/assets/images/html.png',
+    image: '../../../public/images/skills/html.png',
     title: 'HTML'
   },
   {
-    image: '/src/assets/images/git.png',
+    image: '../../../public/images/skills/git.png',
     title: 'Git'
   },
   {
-    image: '/src/assets/images/github.png',
+    image: '../../../public/images/skills/github.png',
     title: 'Github'
   },
   {
-    image: '/src/assets/images/javascript.png',
+    image: '../../../public/images/skills/javascript.png',
     title: 'Javascript'
   },
   {
-    image: '/src/assets/images/typescript.webp',
+    image: '../../../public/images/skills/typescript.webp',
     title: 'Typescript'
   },
   {
-    image: '/src/assets/images/Python.png',
+    image: '../../../public/images/skills/Python.png',
     title: 'Python'
   },
   {
-    image: '/src/assets/images/css.png',
+    image: '../../../public/images/skills/css.png',
     title: 'CSS'
   },
   {
-    image: '/src/assets/images/sass.png',
+    image: '../../../public/images/skills/sass.png',
     title: 'SASS'
   },
   {
-    image: '/src/assets/images/less.webp',
+    image: '../../../public/images/skills/less.webp',
     title: 'LESS'
   },
   {
-    image: '/src/assets/images/bootstrap.png',
+    image: '../../../public/images/skills/bootstrap.png',
     title: 'Bootstrap'
   },
   {
-    image: '/src/assets/images/gulp.png',
+    image: '../../../public/images/skills/gulp.png',
     title: 'Gulp'
   },
   {
-    image: '/src/assets/images/grunt.png',
+    image: '../../../public/images/skills/grunt.png',
     title: 'Grunt'
   },
   {
-    image: '/src/assets/images/parcel.png',
+    image: '../../../public/images/skills/parcel.png',
     title: 'Parcel'
   },
   {
-    image: '/src/assets/images/jquery.png',
+    image: '../../../public/images/skills/jquery.png',
     title: 'jQuery'
   },
   {
-    image: '/src/assets/images/vue.png',
+    image: '../../../public/images/skills/vue.png',
     title: 'Vue'
   },
   {
-    image: '/src/assets/images/react.svg',
+    image: '../../../public/images/skills/react.svg',
     title: 'React'
   },
   {
-    image: '/src/assets/images/redux.svg',
+    image: '../../../public/images/skills/redux.svg',
     title: 'Redux'
   },
   {
-    image: '/src/assets/images/stylecomponent.jpg',
+    image: '../../../public/images/skills/stylecomponent.jpg',
     title: 'Style Component'
   },
   {
-    image: '/src/assets/images/cypress.png',
+    image: '../../../public/images/skills/cypress.png',
     title: 'Cypress'
   },
   {
-    image: '/src/assets/images/ftp.jpg',
+    image: '../../../public/images/skills/ftp.jpg',
     title: 'FTP'
   }
 ]

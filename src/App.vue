@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'assets/SCSS/main.scss';
+@import '@/assets/SCSS/main.scss';
 
 * {
   margin: 0;

@@ -5,7 +5,7 @@
       <div class="about__bio">
         <img
           class="about__bio__img"
-          src="@/assets/images/tech.jpg"
+          src="../../../../public/images/tech.jpg"
           alt="Vetor home programando"
         />
         <div>

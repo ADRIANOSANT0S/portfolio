@@ -14,7 +14,7 @@
       <div class="home__author">
         <img
           class="home__author__img"
-          src="@/assets/images/I.png"
+          src="../../../../public/images/I.png"
           alt="Imagem do Adriano"
         />
       </div>

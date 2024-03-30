@@ -2,7 +2,7 @@
   <Form class="form" action="" :validation-schema="schema">
     <div class="form__highline">
       <div class="form__item">
-        <label class="text" for="fistName">Seu nome*</label>
+        <label class="text" for="firstName">Seu nome*</label>
         <Field
           class="form__item__input"
           type="text"

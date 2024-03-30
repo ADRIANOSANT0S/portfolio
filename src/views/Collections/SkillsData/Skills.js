@@ -1,6 +1,8 @@
+import html from '../../../../public/images/html.png'
+
 export default [
   {
-    image: '../../../public/images/html.png',
+    image: html,
     title: 'HTML'
   },
   {

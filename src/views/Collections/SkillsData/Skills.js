@@ -1,6 +1,6 @@
 export default [
   {
-    image: '../../../public/images/skills/html.png',
+    image: '../../../public/images/html.png',
     title: 'HTML'
   },
   {

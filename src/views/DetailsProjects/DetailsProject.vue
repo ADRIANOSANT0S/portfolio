@@ -10,7 +10,6 @@
             :key="project.id"
             :id="project.id"
           >
-            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"
@@ -47,7 +46,6 @@
             :key="project.id"
             :id="project.id"
           >
-            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"
@@ -84,7 +82,6 @@
             :key="project.id"
             :id="project.id"
           >
-            {{ console.log(project.id) }}
             <img
               class="projects__list__item__img"
               :src="project.image"

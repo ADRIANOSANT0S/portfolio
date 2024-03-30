@@ -31,7 +31,8 @@
             :alt="project.title"
           />
           <div class="projects__list__item__detail">
-            <h4 class="small-title">{{ project.title }}</h4>
+            <h3 class="title">{{ project.title }}</h3>
+            <h4 class="small-title">Tecnologias usadas</h4>
             <p class="small-tex">{{ project.technology }}</p>
             <router-link :to="`/detailsProjects/#${project.id}`">
               <button class="buttonII">

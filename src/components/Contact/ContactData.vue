@@ -1,6 +1,9 @@
 <template>
   <section id="contact" class="contact">
-    <div class="container">
+    <div class="container"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
       <h2 class="middle-title">Transforme sua Visão em Realidade</h2>
       <p class="middle-text">
         Entre em contato, seu projeto merece sair do papel e estou aqui para
@@ -8,8 +11,13 @@
         trabalhar juntos para alcançar seus objetivos!
       </p>
       <div class="contact__form">
-        <FormProject />
-        <div class="contact__form__address">
+        <FormProject
+          data-aos="fade-right"
+          data-aos-duration="2000" />
+        <div class="contact__form__address"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="contact__form__address__item">
             <fa class="icon" :icon="['far', 'map']"></fa>
             <div class="contact__data">

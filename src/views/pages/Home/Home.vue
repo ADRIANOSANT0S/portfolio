@@ -1,6 +1,6 @@
 <template>
-  <section id="home" class="home">
-    <div class="container">
+  <section id="home" class="home" >
+    <div class="container" data-aos="zoom-in" data-aos-duration="2000">
       <div class="home__info">
         <h2 class="title">Olá, Sou Adriano Santos</h2>
         <h1 class="large-title">Engenheiro Full Stack</h1>

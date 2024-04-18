@@ -4,11 +4,13 @@
       <h3 class="middle-title about__title">Sobre mim</h3>
       <div class="about__bio">
         <img
+          data-aos="fade-right"
+          data-aos-duration="2000"
           class="about__bio__img"
           src="../../../../public/images/tech.jpg"
           alt="Vetor home programando"
         />
-        <div>
+        <div data-aos="fade-left" data-aos-duration="2000">
           <h2 class="title">Engenheiro de Software Full Stack</h2>
           <p class="middle-text">
             Estudante de Engenharia de Software, minha jornada é impulsionada

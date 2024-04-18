@@ -15,3 +15,16 @@
     padding: 0;
   }
 }
+
+.container-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 112px;
+
+  @media (max-width: $tablet2) {
+    padding: 0;
+  }
+}

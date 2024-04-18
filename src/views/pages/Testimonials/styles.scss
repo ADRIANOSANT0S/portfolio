@@ -1,0 +1,32 @@
+@import '@/assets/SCSS/main.scss';
+
+.costumer {
+  padding: 120px 0;
+
+  &__container {
+    grid-area: 32px;
+    &__items {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 16px;
+      height: 320px;
+      width: 320px;
+      text-align: center;
+      border-radius: 8px;
+      background-color: darken($blueII, 10%);
+      box-shadow: 0 8px 80px rgba(9, 6, 3, 0.5);
+      font-size: 14px;
+      color: $textColor;
+      text-align: justify;
+
+      .costumer__avatar {
+        margin-bottom: 24px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+}

@@ -4,19 +4,6 @@
   padding: 120px 0;
   background-color: lighten($black, 2%);
   gap: 24px;
-  text-align: center;
-
-  .container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  //control the size of the text tag p
-  .middle-text {
-    max-width: 655px;
-    width: 100%;
-  }
 
   &__list {
     display: grid;
@@ -68,10 +55,6 @@
       grid-template-columns: 1fr;
       max-width: 550px;
       width: 100%;
-    }
-
-    .middle-text {
-      text-align: justify;
     }
   }
 }

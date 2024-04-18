@@ -54,13 +54,7 @@
     }
   }
 
-  @media (min-width: $tablet1) and (max-width: $tablet2) {
-    .link-text {
-      @include convertPxToEm(16px);
-    }
-  }
-
-  @media (max-width: $mobile) {
+  @media (max-width: $mobileII) {
     &__list {
       display: flex;
       align-items: flex-start;
@@ -77,6 +71,7 @@
 
       &__item {
         padding: 24px;
+        width: 100%;
 
         .dropdown {
           position: static;

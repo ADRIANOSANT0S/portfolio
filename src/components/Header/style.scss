@@ -12,19 +12,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 12px;
   }
 
   &__brand {
-    height: 60px;
+    height: 56px;
   }
 
-  @media (min-width: $tablet1) and (max-width: $tablet2) {
-    &__brand {
-      height: 45px;
-    }
-  }
-
-  @media screen and (max-width: $mobile) {
+  @media (max-width: $tablet2) {
     &__brand {
       height: 40px;
     }

@@ -1,7 +1,9 @@
 <template>
   <HeaderProject />
-  <RouterView />
-  <Contact />
+  <main>
+    <RouterView />
+    <Contact />
+  </main>
   <FooterProject />
 </template>
 
@@ -41,5 +43,25 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Responsável por alterar o layout do icon do carosel */
+.PeVNCommon {
+  color: $gold !important;
+  background-color: transparent !important;
+  text-shadow: none !important;
+}
+
+.Slider_Button {
+  color: transparent !important;
+  background-color: $textColor !important;
+  border-radius: 0 !important;
+  width: 24px !important;
+  height: 4px !important;
+}
+
+.Slider_Button_Active {
+  background-color: $gold !important;
+  border: none !important;
 }
 </style>

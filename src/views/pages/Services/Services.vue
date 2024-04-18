@@ -1,14 +1,22 @@
 <template>
   <section id="services" class="services">
-    <div class="container">
-      <h2 class="middle-title">Serviços</h2>
-      <p class="middle-text">
-        Minha abordagem vai além do simples desenvolvimento de aplicações. Eu me
-        dedico a criar soluções tecnológicas personalizadas, elaboradas para
-        impulsionar o crescimento do seu negócio de forma eficaz e inovadora.
-      </p>
+    <div class="container"
+      data-aos="fade-up"
+      data-aos-duration="2000"
+    >
+      <div class="container-center">
+        <h2 class="middle-title">Serviços</h2>
+        <p class="middle-text container__p">
+          Minha abordagem vai além do simples desenvolvimento de aplicações. Eu me
+          dedico a criar soluções tecnológicas personalizadas, elaboradas para
+          impulsionar o crescimento do seu negócio de forma eficaz e inovadora.
+        </p>
+      </div>
       <ul class="services__list">
         <li
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
           v-for="(detail, id) in details"
           :key="id"
           class="services__list__item"

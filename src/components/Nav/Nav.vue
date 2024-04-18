@@ -60,11 +60,19 @@
           >Serviços</a
         >
       </li>
+      <li class="nav__list__item">
+        <a
+          class="link-text"
+          href="#costumer"
+          @click="goToSection('costumer'), toggleMenu()"
+        >
+          Depoimentos
+        </a>
+      </li>
     </ul>
     <a class="buttonI" href="#contact" @click="goToSection('contact')"
       >Contato</a
     >
-
     <div
       class="hamburger-wrapper"
       @click="toggleMenu()"

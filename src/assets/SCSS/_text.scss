@@ -9,12 +9,13 @@
   color: $textColor;
 
   &:hover {
+    transition: 2s;
     background: linear-gradient(to right, #e28b1e, #dff9fb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
-  @include convertPxToEm(18px);
+  @include convertPxToEm(16px);
 }
 
 .large-text {
@@ -30,7 +31,7 @@
     @include convertPxToEm(18px);
   }
 
-  @media (max-width: $mobile) {
+  @media (max-width: $mobileII) {
     @include convertPxToEm(20px);
   }
 }
@@ -41,6 +42,10 @@
   line-height: 24px;
 
   @include convertPxToEm;
+
+  @media (max-width: $mobile) {
+    text-align: justify;
+  }
 }
 
 .text {

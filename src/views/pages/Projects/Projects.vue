@@ -1,9 +1,6 @@
 <template>
   <section id="projects" class="projects">
-    <div class="container"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    >
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <h2 class="middle-title">Projetos</h2>
       <nav class="projects__nav">
         <button

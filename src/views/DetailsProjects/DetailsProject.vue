@@ -1,9 +1,6 @@
 <template>
   <section>
-    <div class="container"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    >
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <div class="projects">
         <h2 class="middle-title">Destaques</h2>
         <ul class="projects__list">
@@ -42,10 +39,7 @@
           </li>
         </ul>
       </div>
-      <div class="projects"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
+      <div class="projects" data-aos="fade-up" data-aos-duration="2000">
         <h2 class="middle-title">Projetos Front-end</h2>
         <ul class="projects__list">
           <li
@@ -83,10 +77,7 @@
           </li>
         </ul>
       </div>
-      <div class="projects"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
+      <div class="projects" data-aos="fade-up" data-aos-duration="2000">
         <h2 class="middle-title">Projetos Backend</h2>
         <h2 class="title">EM BREVE ADICIONAREI PROJETOS AQUI.</h2>
         <ul class="projects__list">

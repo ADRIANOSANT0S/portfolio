@@ -1,15 +1,14 @@
 <template>
   <section id="skills" class="skills">
-    <div class="container"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    >
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <div class="container-center">
         <h2 class="middle-title">Minhas Skills</h2>
         <blockquote class="middle-text">
-          <em
-            >"Os homes obtem êxito não por aquilo que sabem, mas pelo que se
-            lembram e põem de fato em uso." - </em> Myles Gaythwaite
+          <em>
+            "Os homes obtém êxito não por aquilo que sabem, mas pelo que se
+            lembram e põem de fato em uso." -
+          </em>
+          Myles Gaythwaite
         </blockquote>
       </div>
 

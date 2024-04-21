@@ -17,7 +17,7 @@ library.add(fas, far, fab)
 const app = createApp(App)
 
 app.use(router)
-app.component('fa', FontAwesomeIcon)
+app.component('Fa', FontAwesomeIcon)
 app.mount('#app')
 
 AOS.init()

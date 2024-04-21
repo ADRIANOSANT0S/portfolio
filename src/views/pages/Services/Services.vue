@@ -1,15 +1,13 @@
 <template>
   <section id="services" class="services">
-    <div class="container"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    >
+    <div class="container" data-aos="fade-up" data-aos-duration="2000">
       <div class="container-center">
         <h2 class="middle-title">Serviços</h2>
         <p class="middle-text container__p">
-          Minha abordagem vai além do simples desenvolvimento de aplicações. Eu me
-          dedico a criar soluções tecnológicas personalizadas, elaboradas para
-          impulsionar o crescimento do seu negócio de forma eficaz e inovadora.
+          Minha abordagem vai além do simples desenvolvimento de aplicações. Eu
+          me dedico a criar soluções tecnológicas personalizadas, elaboradas
+          para impulsionar o crescimento do seu negócio de forma eficaz e
+          inovadora.
         </p>
       </div>
       <ul class="services__list">

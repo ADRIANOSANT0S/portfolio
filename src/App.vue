@@ -1,9 +1,7 @@
 <template>
   <HeaderProject />
-  <main>
-    <RouterView />
-    <Contact />
-  </main>
+  <RouterView />
+  <Contact />
   <FooterProject />
 </template>
 
@@ -33,6 +31,7 @@ export default {
   font-family: 'Inter';
   scrollbar-width: thin;
   scrollbar-color: $blueII $black;
+  overflow-x: hidden;
 }
 
 html,
@@ -43,25 +42,5 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-/* Responsável por alterar o layout do icon do carosel */
-.PeVNCommon {
-  color: $gold !important;
-  background-color: transparent !important;
-  text-shadow: none !important;
-}
-
-.Slider_Button {
-  color: transparent !important;
-  background-color: $textColor !important;
-  border-radius: 0 !important;
-  width: 24px !important;
-  height: 4px !important;
-}
-
-.Slider_Button_Active {
-  background-color: $gold !important;
-  border: none !important;
 }
 </style>

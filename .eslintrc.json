@@ -28,6 +28,11 @@
         }
       }
     ],
-    "linebreak-style": ["error", "windows"]
+    "linebreak-style": ["error", "windows"],
+    "comma-spacing": ["error", {
+      "before": false,
+      "after": true }],
+    "no-trailing-spaces": "error"
   }
 }
+
